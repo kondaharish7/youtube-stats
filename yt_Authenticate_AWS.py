@@ -31,10 +31,3 @@ def aws_glue_client():
                                region_name=awsregion
                             )
     return glue_client
-
-#Set Variables
-s3_bucket = "mutual-funds-nav-tracker"
-s3_amc_filename = "all_amc_names.txt"
-
-# s3_mf_urls_file = "all_mf_urls.txt"
-# s3_mf_urls_key = ""
